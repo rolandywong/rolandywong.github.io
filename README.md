@@ -1,4 +1,11 @@
-# Portfolio  
+# Roland Wong's Portfolio  
 Live: [rolandywong.github.io](https://rolandywong.github.io)  
-- Focus: Cybersecurity, AI, and 3D printing projects.  
-- Tech: HTML/CSS, Java, Python, C.
+
+## Features
+- Dark/light mode toggle
+- Responsive Design
+- Project Showcase
+
+## Technologies 
+- HTML/CSS, Java, Python, C
+- Hosted on GitHub Pages
