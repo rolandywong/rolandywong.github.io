@@ -1,3 +1,25 @@
+/* Mode Section */
+/* Light (default) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --accent-color: #0077b5;
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+  --accent-color: #4da6ff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
 /* Hero Section */
 .hero {
   text-align: center;
