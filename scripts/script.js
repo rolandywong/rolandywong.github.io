@@ -1,13 +1,13 @@
 const themeToggle = document.getElementById('theme-toggle');
-const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+const prefersDark = window.matchMedia('(prefers-color-scheme: light)').matches;
 
 // Set initial theme
 if (localStorage.getItem('theme') === 'dark' || prefersDark) {
   document.documentElement.setAttribute('data-theme', 'dark');
-  themeToggle.textContent = 'Light';
+  themeToggle.textContent = '☀️';
 } else {
   document.documentElement.setAttribute('data-theme', 'light');
-  themeToggle.textContent = 'Dark';
+  themeToggle.textContent = '🌑';
 }
 
 // Toggle theme on button click
