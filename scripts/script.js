@@ -4,10 +4,10 @@ const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 // Set initial theme
 if (localStorage.getItem('theme') === 'dark' || prefersDark) {
   document.documentElement.setAttribute('data-theme', 'dark');
-  themeToggle.textContent = '☀️';
+  themeToggle.textContent = 'Light';
 } else {
   document.documentElement.setAttribute('data-theme', 'light');
-  themeToggle.textContent = '🌙';
+  themeToggle.textContent = 'Dark';
 }
 
 // Toggle theme on button click
